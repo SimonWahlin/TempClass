@@ -129,7 +129,7 @@ Will it work? What will happen?
 
 1. Investigate $Date and see if you can find a method to modify the date.
 
-1. See if you can putput the date of the last day in the last month.
+1. See if you can putput the date of the last day in the previous month.
 
 ## Lesson 8 - Working with strings
 
@@ -156,19 +156,33 @@ Will it work? What will happen?
 
 1. Use a switch statement to write a message that tells which letter each name starts with
 
-## Lesson 10 - PowerShell Remoting
+## Lesson 10 - WMI
+
+1. Get the serial number of your computer and save the last 8 characters in a string called $Serial
+
+1. Using the class Win32_SystemEnclosure to find and store your computers chassis types.
+
+1. If the chassis type are 9, 10, 11 or 14 set the variable $Type to 'L'
+
+1. If the chassis type are 8, set the $Type to 'T'
+
+1. If the cassis type are anything else than 8,9,10,11 or 14, set $Type to 'W'
+
+1. Combine $Type with a dash (-) and $Serial to create a computername and stor that in $Name
+
+## Lesson 11 - PowerShell Remoting
 
 Todo...
 
-## Lesson 11 - Version Control
+## Lesson 12 - Version Control
 
 Todo...
 
-## Lesson 12 - PowerShell Tools
+## Lesson 13 - PowerShell Tools
 
 Todo...
 
-## Lesson 13 - Creating parameters
+## Lesson 14 - Creating parameters
 
 
 
