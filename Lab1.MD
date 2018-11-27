@@ -146,7 +146,15 @@ Will it work? What will happen?
 
 ## Lesson 9 - Logic flow
 
-Todo...
+1. Save the service W32Time in a variable
+
+1. If the service is running, write a positive message to screen
+
+1. If the service is not running, write a warning to screen
+
+1. Write a script that saves the strings 'Alfa', 'Bravo' and 'Charlie' in a variable
+
+1. Use a switch statement to write a message that tells which letter each name starts with
 
 ## Lesson 10 - PowerShell Remoting
 
@@ -161,3 +169,8 @@ Todo...
 Todo...
 
 ## Lesson 13 - Creating parameters
+
+
+
+
+
