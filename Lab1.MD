@@ -116,3 +116,48 @@ Will it run? What will happen?
 ```PowerShell
 Get-Process -Id $PID | Get-Item | Get-Process
 ```
+
+Will it work? What will happen?
+
+1. Try to use Select-Object to make the above command work.
+
+## Lesson 7 - Variables
+
+1. Store todays date in a variable called $Date
+
+1. Write the day of the month to screen
+
+1. Investigate $Date and see if you can find a method to modify the date.
+
+1. See if you can putput the date of the last day in the last month.
+
+## Lesson 8 - Working with strings
+
+1. Create a variable called $Name and store you name in it.
+
+1. Create another variable called $Day and store todays day in it.
+
+1. Create third variable valled $Greeting containing a greeting to the name in $Name and saying wich day it is today. Example output:
+  Hello Simon, today is tuesday.
+
+1. Create a new variable called $NewName that contains a new name.
+
+1. Replace the name in $Greeting with the new name.
+
+## Lesson 9 - Logic flow
+
+Todo...
+
+## Lesson 10 - PowerShell Remoting
+
+Todo...
+
+## Lesson 11 - Version Control
+
+Todo...
+
+## Lesson 12 - PowerShell Tools
+
+Todo...
+
+## Lesson 13 - Creating parameters
